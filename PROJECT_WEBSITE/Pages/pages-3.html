@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 3</title>
+    <link rel="stylesheet" href="../CSS/pages-3.css">
+</head>
+<body>
+    <h1>Welcome To Thrift Bundle</h1>
+    <div class="Page">
+        <ul>
+            <li><a class="active" href="pages-1.html">Home</a></li>
+            <li class="catalog">
+                <a href="pages-2.html" class="dropbtn">Catalog</a>
+                <div class="catalog-content">
+                    <a href="catalog-clothes.html">Clothes</a>
+                    <a href="catalog-pants.html">Pants</a>
+                </div>
+            </li>
+            <li><a href="pages-3.html">Registration Form</a></li>
+            <li><a href="pages-4.html">Help</a></li>
+            <li><a href="pages-5.html">About Us</a></li>
+            <li><a href="pages-6.html">Login</a></li>
+        </ul>
+    </div>
+
+    <form action="/action_page.php">
+        <div class="container">
+            <h2>Membership Registration</h2>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="Enter name" name="name" id="name" required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+            <label for="pass"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="pass" id="pass" required>
+
+            <label for="pass-repeat"><b>Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="pass-repeat" id="pass-repeat" required>
+            <hr>
+
+            <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+            <button type="submit" class="registerbtn">Register</button>
+        </div>
+
+        <div class="container signin">
+            <p>Already have an account? <a href="#">Sign in</a>.</p>
+          </div>
+
+    </from>
+</body>
+</html>

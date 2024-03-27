@@ -1,0 +1,151 @@
+body{
+    background-color: beige;
+    margin: 20px 0px 20px 0px;
+    font-family: arial;
+    font-size: 12pt
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    margin-left: 340px;
+}
+
+.Page{
+    display: block;
+    width: 1000px;
+    /* min-height: 800px; */
+    overflow: auto;
+    margin: 0px auto 0px auto;
+    box-sizing: border-box;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategray;
+}
+
+li {
+    float: right;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(active){
+    background-color: darkseagreen;
+}
+
+
+li .catalog{
+    display: inline-block;
+}
+
+.catalog-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.catalog-content a{
+    color: black;
+    padding:12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.catalog-content a:hover{
+    background-color: #f1f1f1;
+}
+
+.catalog:hover .catalog-content{
+    display: block;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+form{
+    width: 50%;
+    margin:10px;
+    margin-left: 25%;
+   /* padding-top: 50px;*/
+    border: 2px solid black;
+}
+
+.container{
+    width: auto;
+}
+input[type=text] , input[type=password] {
+    width: 100%;
+    padding:12px 20px;
+    margin:8px 0;
+    display:inline-block;
+    border: 1px solid #ccc;
+    box-sizing:border-box;
+}
+
+button{
+    background-color:darkslategray;
+    color: white;
+    padding: 14px 20px;
+    margin:8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.cancelbtn{
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer{
+    text-align: center;
+    margin: 12px 0 20px 0;
+}
+
+img.avatar{
+    width: 10%;
+    border-radius: 20%;
+}
+
+.container{
+    padding:12px;
+}
+
+span.pass{
+    float:right;
+    padding-top: 16px;
+}
+
+@media screen and (max-width:30px){
+    span.pass{
+        display:block;
+        float:none;
+    }
+    .cancelbtn{
+        width:100%;
+    }
+}

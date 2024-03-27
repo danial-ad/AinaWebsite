@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pages 6</title>
+    <link rel="stylesheet" href="../CSS/pages-6.css">
+</head>
+<body>
+    <h1>Welcome To Thrift Bundle</h1>
+    <div class="Page">
+        <ul>
+            <li><a class="active" href="pages-1.html">Home</a></li>
+            <li class="catalog">
+                <a href="pages-2.html" class="dropbtn">Catalog</a>
+                <div class="catalog-content">
+                    <a href="catalog-clothes.html">Clothes</a>
+                    <a href="catalog-pants.html">Pants</a>
+                </div>
+            </li>
+            <li><a href="pages-3.html">Registration Form</a></li>
+            <li><a href="pages-4.html">Help</a></li>
+            <li><a href="pages-5.html">About Us</a></li>
+            <li><a href="pages-6.html">Login</a></li>
+        </ul>
+    </div>
+
+    <h2>Login Membership</h2>
+    <form action="/action_page.php" method="post">
+        <div class="imgcontainer">
+            <img src="../images_icon/login1.jpg" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+             
+            <label for="pass"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="pass" required>
+
+            <button type="submit">Login</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember Me
+            </label>
+        </div>
+
+        <div class="container" style="background-color: #f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="pass"><a href="#">Forgot Password ?</a></span>
+        </div>
+    </form> 
+</body>
+</html>
